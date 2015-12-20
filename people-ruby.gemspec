@@ -5,14 +5,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'people/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'people'
+  spec.name = 'people-ruby'
   spec.version = People::VERSION
   spec.authors = ['Raz Konforti']
   spec.email = ['konforti@gmail.com']
   spec.required_ruby_version = '>= 2.2.2'
-  spec.summary = 'Remote Identity Management'
-  spec.description = 'Remote Identity Management'
-  spec.homepage = 'http://www.konforti.net/people'
+  spec.summary = 'Ruby bindings for People - Remote Identity Management People'
+  spec.description = 'The People Ruby bindings provide a small SDK for convenient access to the People API from applications written in the Ruby language.'
+  spec.homepage = 'https://github.com/konforti/people-ruby'
   spec.license = 'MIT'
 
   spec.files = `git ls-files`.split("\n")
